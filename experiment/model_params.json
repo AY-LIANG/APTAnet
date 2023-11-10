@@ -1,0 +1,25 @@
+{
+    "ligand_padding_length": 350,
+    "receptor_padding_length": 150,
+    "ligand_hidden_sizes": 384,
+    "receptor_hidden_sizes": 1024,
+    "loss_fn": "binary_cross_entropy",
+    "dense_hidden_sizes": [
+        512,
+        256,
+        128
+    ],
+    "activation_fn": "relu",
+    "dense_dropout": 0.5,
+    "attention_dropout": 0,
+    "batch_norm": true,
+    "batch_size": 1024,
+    "lr": 0.0085,
+    "weight_decay":  0.01,
+    "anneal_strategy":"cos",
+    "pct_start": 0.3,
+    "amsgrad": false,
+    "epochs": 50,
+    "num_workers": 0,
+    "attention_head_num": 8
+}
